@@ -9,6 +9,7 @@ struct RentHouseMsg{
     struct Date begin, end;
     struct House * house;
     struct User * user;
+    struct Middium * middium;
 };
 
 struct RHMListNode{

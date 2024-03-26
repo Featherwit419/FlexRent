@@ -4,59 +4,57 @@
 #include<stdbool.h>
 
 /*intlist.h*/
-struct IntList;
+struct IntList; // 整型链表
 
 /*date.h*/
-struct Date;
+struct Date; // 日期类型
 
 /*tag.h*/
-struct Tag;
-struct TagListNode;
-struct TagList;
+struct Tag; // 标签类型
+struct TagListNode; // 标签链表节点
+struct TagList;  // 标签链表
 
 /*house.h*/
-struct House;
-struct HouseListNode;
-struct HouseList;
+struct House; // 房源
+struct HouseListNode; // 房源链表节点
+struct HouseList; // 房源链表
 
 /*user.h*/
-struct User;
-struct UserListNode;
-struct UserList;
+struct User; // 用户
+struct UserListNode; // 用户链表节点
+struct UserList; // 用户链表
 
 /*middium*/
-struct Middium;
-struct MiddiumListNode;
-struct MiddiumList;
+struct Middium; // 中介
+struct MiddiumListNode; // 中介链表节点
+struct MiddiumList; // 中介链表
 
 /*renthousemsg.h*/
-struct RentHouseMsg;
-struct RHMListNode;
-struct RHMList;
+struct RentHouseMsg; // 租房信息
+struct RHMListNode; // 租房信息链表节点
+struct RHMList; // 租房信息链表
 
 /*viewhousemsg.h*/
-struct ViewHouseMsg;
-struct VHMListNode;
-struct VHMList;
+struct ViewHouseMsg; // 看房信息
+struct VHMListNode; // 看房信息链表节点
+struct VHMList;  // 看房信息链表
 
 /*city.h*/
-struct City;
-struct CityListNode;
-struct CityList;
+struct City; // 城市
+struct CityListNode; // 城市链表节点
+struct CityList; // 城市链表
 
 /*area.h*/
-struct Area;
-struct AreaListNode;
-struct AreaList;
+struct Area; // 区域
+struct AreaListNode; // 区域链表节点
+struct AreaList; // 区域链表
 
 /*community.h*/
-struct Community;
-struct CommunityListNode;
-struct CommunityList;
+struct Community; // 小区
+struct CommunityListNode; // 小区链表节点
+struct CommunityList; // 小区链表
 
 /*addresstree.h*/
-struct AddressTree;
-
-
+struct AddressTree; // 地址树
 
 #endif

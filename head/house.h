@@ -9,6 +9,7 @@ struct House{
     int id; //房源编号
     int price; //租金
     int S; //面积
+    int floor;
     bool isDel;
     char * ownerName;
     char * ownerPhone;
