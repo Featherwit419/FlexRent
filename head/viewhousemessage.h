@@ -1,3 +1,0 @@
-#ifndef _VIEW_HOUSE_MESSAGE
-#define _VIEW_HOUSE_MESSAGE
-#endif

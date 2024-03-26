@@ -6,7 +6,7 @@
 // int 类型单项链表节点
 struct IntListNode{
     int value; //值
-    struct IntListNode * nxt; //下一个节点地址
+    struct IntListNode * nxt; // 下一个节点地址
 };
 
 // int 类型单项链表
