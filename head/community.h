@@ -7,6 +7,7 @@
 struct Community{
     char * name;
     char * address;
+    struct Area * father;
     struct HouseList houseList;
 };
 

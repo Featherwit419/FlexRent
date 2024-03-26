@@ -6,6 +6,7 @@
 
 struct Area{
     char * name;
+    struct City * father;
     struct CommunityList communityList;
 };
 

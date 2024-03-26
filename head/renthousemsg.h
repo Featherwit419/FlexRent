@@ -6,6 +6,7 @@
 
 
 struct RentHouseMsg{
+    int id;
     struct Date begin, end;
     struct House * house;
     struct User * user;
