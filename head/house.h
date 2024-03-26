@@ -24,4 +24,14 @@ struct House{
     struct RHMList rentMsgList;
 };
 
+struct HouseListNode{
+    struct House * data;
+    struct HouseListNode * nxt;
+};
+
+struct HouseList{
+    struct HouseListNode head;
+    int cnt;
+};
+
 #endif
