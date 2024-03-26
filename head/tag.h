@@ -4,5 +4,5 @@ struct Tag{
     int id;
     char * name;
     int cnt;
-}
+};
 #endif

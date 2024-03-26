@@ -2,6 +2,7 @@
 #define _INT_LIST
 
 #include <stdbool.h>
+#include "typedefine.h"
 
 // int 类型单项链表节点
 struct IntListNode{
