@@ -5,6 +5,7 @@
 #include "date.h"
 #include "viewhousemsg.h"
 #include "renthousemsg.h"
+#include "intlist.h"
 struct House{
     int id; //房源编号
     int price; //租金
@@ -21,8 +22,8 @@ struct House{
     struct Tag * direction; //房屋朝向
     struct Tag * decorationLevel; //装修程度(0-100)
     struct Tag * houseType; //房型
-    struct VHMList viewMsgList;
-    struct RHMList rentMsgList;
+    struct IntList viewMsgList;
+    struct IntList rentMsgList;
 };
 
 struct HouseListNode{

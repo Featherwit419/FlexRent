@@ -4,13 +4,14 @@
 #include "typedefine.h"
 #include "viewhousemsg.h"
 #include "renthousemsg.h"
+#include "intlist.h"
 
 struct User{
     char * name;
     int id;
     char * password;
     char * phoneNumber;
-    struct VHMList viewList;
-    struct RHMList rentList;
+    struct IntList viewMsgList;
+    struct IntList rentMsgList;
 };
 #endif
