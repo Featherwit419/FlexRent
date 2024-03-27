@@ -17,36 +17,39 @@ struct IntList{
 };
 
 // 链表初始化
-void init(struct IntList * list);
+void initIntList(struct IntList * list);
 
 // 获得元素个数并返回
-int getListCnt(struct IntList * list);
+int getIntListCnt(struct IntList * list);
 
 // 查询是否出现某个值
-bool findValue(struct IntList * list, int w);
+bool findIntListValue(struct IntList * list, int w);
 
 // 将链表转为 int 数组，返回数组首地址
 int * IntListToIntArray(struct IntList * list);
 
-// 将 int 数组转为链表，返回新的链表
-struct IntList IntArrayToIntList(int * array);
+// 将 int 数组转为链表，返回链表
+struct IntList * IntArrayToIntList(int * array, int len);
 
-// 链表头部插入节点，返回新的链表
-struct IntList addHead(struct IntList * list, int w);
+// 链表头部插入节点
+void addIntListHead(struct IntList * list, int w);
 
-// 链表尾部插入节点，返回新的链表
-struct IntList addTail(struct IntList * list, int w);
+// 链表尾部插入节点
+void addIntListTail(struct IntList * list, int w);
 
-// 在特定节点后插入节点，返回新的链表
-struct IntList addNode(struct IntList * list, struct IntListNode * node, int w);
+// 在特定节点后插入节点
+// void addIntListNode(struct IntList * list, struct IntListNode * node, int w);
 
-// 删除链表头部节点，返回新的链表
-struct IntList delHead(struct IntList * list, int w);
+// 删除链表头部节点
+void delIntListHead(struct IntList * list);
 
-// 删除链表尾部节点，返回新的链表
-struct IntList delTail(struct IntList * list, int w);
+// 删除链表尾部节点
+void delIntListTail(struct IntList * list);
 
-// 删除特定节点后节点，返回新的链表
-struct IntList delNode(struct IntList * list, struct IntListNode * node);
+// 删除特定节点
+// void delIntListNode(struct IntList * list, struct IntListNode * node);
+
+// 筛选满足条件的节点
+struct IntList * filterIntList(struct IntList * list, bool (*check)(int));
 
 #endif
