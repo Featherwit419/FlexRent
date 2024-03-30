@@ -10,7 +10,7 @@ struct IntListNode{
     struct IntListNode * nxt; // 下一个节点地址
 };
 
-// int 类型单项链表
+// int 类型单向链表
 struct IntList{
     struct IntListNode * head; // 首节点
     int cnt; //节点个数
