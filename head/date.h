@@ -10,7 +10,7 @@ struct Date{
 bool SetDate(struct Date* date,int y,int m, int d);
 // 比较两个日期的大小，大于返回大于 0 的数，小于返回小于 0 的数，等于返回 0
 int cmpDate(struct Date a, struct Date b);
-// 计算日期相差天数，b-a。不包含末端
+// 计算日期相差天数，b-a。
 int subDate(struct Date a, struct Date b);
 //判断闰年
 bool LeapJudge(int year);
